@@ -1,41 +1,85 @@
-# FocusLock
+# 🚀 FocusLock
 
-FocusLock is a productivity application designed to help users manage their social media usage through tracking, daily limits, and focus sessions.
+<p align="center">
+  <strong>Take control of your screen time. Protect your focus.</strong>
+</p>
 
-## Features
+<p align="center">
+  An Android productivity application that helps users monitor distracting app usage, set daily limits, and create focused work sessions — while keeping usage data completely on-device.
+</p>
 
-- **App Usage Monitoring**: Track time spent on selected applications.
-- **Daily Limits**: Set maximum usage time for distracting apps.
-- **Focus Sessions**: Dedicated blocks of time for deep work.
-- **Statistics**: View daily and weekly usage trends.
-- **Local Privacy**: All usage data is processed and stored on-device.
+<p align="center">
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"/>
+  <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose"/>
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android"/>
+  <img src="https://img.shields.io/badge/Room-6DB33F?style=for-the-badge&logo=sqlite&logoColor=white" alt="Room"/>
+  <img src="https://img.shields.io/badge/MVVM-Architecture-FF6F00?style=for-the-badge" alt="MVVM"/>
+</p>
 
-## Technology Stack
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Privacy-On--Device-2196F3?style=flat-square"/>
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square"/>
+</p>
 
-- **Kotlin**: Modern and concise language for Android development.
-- **Jetpack Compose**: Declarative UI toolkit.
-- **Room Database**: Local persistence.
-- **MVVM**: Clean and scalable architecture.
-- **UsageStatsManager**: Android system API for usage tracking.
+---
 
-## Android Permissions
+## 📱 App Preview
 
-- `PACKAGE_USAGE_STATS`: Required to monitor app usage.
-- `POST_NOTIFICATIONS`: Required for usage alerts on Android 13+.
-- `QUERY_ALL_PACKAGES`: Required to list installed apps for selection.
+<p align="center">
 
-## How it Works
+<!-- Upload your screenshot to the repository and replace the path below -->
 
-FocusLock uses the Android `UsageStatsManager` to query the foreground time of selected packages within specified intervals (e.g., daily). This data is stored locally in a Room database to provide statistics and trigger notifications when limits are approached.
+<img src="screenshots/app-preview.png" alt="FocusLock App Preview" width="850"/>
 
-## Limitations
+</p>
 
-- **Platform Restrictions**: Android prevents apps from forcibly killing or blocking other apps directly for security. FocusLock uses strong notifications and warnings as alternatives.
-- **Battery Optimization**: Background tracking may be affected by device-specific power saving modes.
+<p align="center">
+  <em>FocusLock — monitor usage, set limits, and build focused sessions.</em>
+</p>
 
-## How to Run
+---
 
-1. Clone the repository.
-2. Open in Android Studio.
-3. Sync Gradle and Build.
-4. Run on a physical device (Usage statistics are best tested on real devices).
+## 🎯 The Problem
+
+Social media and entertainment apps can easily turn a short break into hours of unplanned screen time.
+
+Most users know they are spending too much time on distracting applications, but lack a simple way to:
+
+- Understand where their time is going
+- Set personal usage boundaries
+- Create distraction-free periods
+- Receive timely warnings
+- Review their productivity patterns
+
+### 💡 The Solution
+
+**FocusLock** provides a simple Android-based solution that combines:
+
+> **Usage Monitoring + Daily Limits + Focus Sessions + Productivity Statistics**
+
+The application processes usage information locally on the device, keeping personal usage data private.
+
+---
+
+## ✨ Key Features
+
+### 📊 App Usage Monitoring
+
+Monitor the amount of time spent on selected applications using Android's `UsageStatsManager`.
+
+- Track selected applications
+- View daily usage
+- View weekly usage
+- Compare usage against configured limits
+
+### ⏱️ Daily Usage Limits
+
+Set individual limits for distracting applications.
+
+Example:
+
+```text
+Instagram   30 min/day
+YouTube     45 min/day
+Reddit      20 min/day
