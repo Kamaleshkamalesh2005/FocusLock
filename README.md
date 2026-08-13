@@ -30,7 +30,8 @@
 
 <!-- Upload your screenshot to the repository and replace the path below -->
 
-<img width="1080" height="2400" alt="WhatsApp Image 2026-08-13 at 19 10 46" src="https://github.com/user-attachments/assets/798aeccf-d425-4b1d-993f-5c4632f9ae4a" />
+<img width="853" height="1844" alt="image" src="https://github.com/user-attachments/assets/209ad2ef-60fb-4bc6-9be8-5c5a7d341cb3" />
+
 
 
 </p>
