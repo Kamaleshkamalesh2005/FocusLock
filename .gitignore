@@ -1,0 +1,52 @@
+# Built objects
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Build folders
+build/
+app/build/
+
+# Gradle
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
+!gradle-wrapper.jar
+
+# Kotlin
+.kotlin/
+
+# IDE specific
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetDropDown.xml
+.idea/kotlinc.xml
+.idea/vcs.xml
+
+# Local configuration
+local.properties
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Captures and traces
+/captures/
+
+# External Native Build
+.externalNativeBuild
+.cxx
+
+# Agent/Artifacts
+.artifacts/
