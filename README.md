@@ -30,7 +30,8 @@
 
 <!-- Upload your screenshot to the repository and replace the path below -->
 
-<img src="screenshots/app-preview.png" alt="FocusLock App Preview" width="850"/>
+<img width="1080" height="2400" alt="WhatsApp Image 2026-08-13 at 19 10 46" src="https://github.com/user-attachments/assets/798aeccf-d425-4b1d-993f-5c4632f9ae4a" />
+
 
 </p>
 
